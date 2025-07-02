@@ -51,4 +51,4 @@ Dieses Projekt steht unter der Apache License 2.0. Weitere Informationen siehe [
 
 Hannes F. Martens,
 Matthes Boettcher,
-Farin Forster,
+Farin Forster
