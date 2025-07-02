@@ -97,10 +97,10 @@ public class Startbildschirm {
 
     public void erstelleSpielData() {
         if (this.data == null) {
-            System.out.println("SPIELDATA!!!!!");
+            System.out.println("erstelle SpielData");
             new SpielData();
         } else {
-            System.out.println("Keine SpielData!!");
+            System.out.println("Keine SpielData vorhanden");
         }
     }
 }

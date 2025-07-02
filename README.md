@@ -1,40 +1,57 @@
-Alle wichtigen Dateien: /src
+# 📅 ToDo-Organizer
 
-Einfach runterladen und als neues Projekt erstellen
+A simple to-do organiser for creating, managing and filtering tasks according to urgency and date - with a graphical user interface (Swing).
 
-Git-push:
-Falls keine 2FA eingestellt ist, könnt ihr euch per HTTP & Terminal verbinden und alles hochladen. Sonst müsstet ihr eine SSH Verbindung einrichten
-(-> https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+---
 
-Falls erfolgt, funktioniert es bei mir mit den Befehlen:
-1. im Terminal in das Verzeichnis der Dateien gehen
-2. git init -> erstellt eine leere Repository für git push
-3. git add . -> alle Dateien auswählen
-4. git commit -m "dies ist ein Text" -> kurzen Text über updates schreiben
-5. git push -u origin main ODER git push -> die Dateien hochladen
+## 🚀 Features
 
-   Per 'git status' aktuellen Status einsehen, 'git branch' aktuelle Repository (?)
+- ToDo overview sorted by urgency
+- detailed view of individual todos
+- filtered TodayView
+- dynamic calendar for an overview
+- creation, editing and removal of todos
+- local storage in JSON format
+- clear code according to mvc
 
-To-Dos:
-- [ ] einfach ALLES nochmal überarbeiten -> sauberer und verständlicher gestalten
-- [ ] auf Bugs untersuchen (und bestenfalls hier aufschreiben)
-- [x] Spielfeld beschriftung hinzufügen (1-8 und a-h)
-- [X] Spieler nur abwechselnd bewegen lassen (weiß, schwarz, weiß,...)
-- [X] Prüfen ob Spiel zu ende ist
-- [X] "Endscreen" - wenn jemand gewonnen hat
-- [X] Spielspeicherung
-- [X] Bauer können nach unten und oben platziert werden (in 'checkBauerBewegen()')
-- [X] Damen können die eigene Farbe schlagen
-- [X] Debug-Modus: wenn man einen Bauern auf ein Feld setzt in dem es zur Dame werden sollte und man das Spiel startet, bleibt es ein Bauer
-- [X] Bug: falls ein Bauer übersprungen wird um zum Spielfeldrand zu kommen, wird man keine Dame sondern bleibt ein Bauer -> behoben durch anderen Aufbau der Spiellogik
-- [X] Felder auf die man springen farbig hervorheben
-- [X] Auf Windows Spielfeld schön machen
-- [X] Mehrfachsprünge implementieren
-- [ ] Spielspeicherung bugfix: wenn man spiel lädt und ändert wird nicht nochmal gefragt ob man speichern will
-      - bei der Abfrage wird die SpielGUI pgn mit der SpielSpeichern pgn verglichen. Die SpielGUI pgn aktualisiert sich nicht...
-- [X] (noch nicht überprüft, aber) was wenn noch kein spiel gespeichert wurde? -> leeres Feld wird angezeigt
-- [X] neues Spiel, figuren bewegen, speichern und zur Startseite gehen. Wenn man auf neues spiel klickt, wird das gespeicherte Spiel geladen
-      -> aber nicht, wenn man das Programm neu startet
-      LÖSUNG: 'standardpgn' wird nicht als Attribut der Klasse SpielData initialisiert, sondern per Konstruktor
-- [X] Mögliche Züge wird unabhängig des aktuellen Spielers für beide Steine angezeigt
-...
+---
+
+## 📷 Screenshots
+
+![Screenshot Overview](img/ScreenshotOverview.jpg)
+![Screenshot NewTodo](img/ScreenshotNewTodo.jpg)
+![Screenshot Calendar](img/ScreenshotCalendar.jpg)
+![Screenshot TodayView](img/ScreenshotTodayView.jpg)
+
+---
+
+## 🛠️ Used technologies
+
+| Tool / Library                                                   | Purpose               |
+|------------------------------------------------------------------|-----------------------|
+| Java (21+), tested with GraalVM JDK 21                           | Programming language  |
+| Swing                                                            | GUI-Toolkit           |
+| Maven (3.6+)                                                     | Dependency-Management |
+| [Jackson Databind](https://github.com/FasterXML/jackson) (v2.15) | JSON-Serialisation    |
+
+---
+
+## 💻 Installation/Execution
+
+Requirements:
+- Java JDK **21** or later (z.B. [GraalVM JDK 21](https://www.graalvm.org))
+- Maven 3.6 or later
+
+### With IDE (Intellij)
+
+1. Clone project: `git clone https://github.com/Hannes2806/Todo-Organizer.git`
+2. Open in IDE (Intellij)
+3. Execute `Main.java`
+
+## 📄 Licence
+
+This project is licensed under the Apache Licence 2.0. For more information see [LICENSE](LICENSE.txt).
+
+## Author
+
+Hannes F. Martens 
