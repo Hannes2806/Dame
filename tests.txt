@@ -1,0 +1,50 @@
+Initiale Spielaufstellung:
+Alle Figuren werden richtig auf den Dunklen Feldern als Schwarze bzw. Weiße Bauern platziert
+
+Geladene Spielaufstellung:
+Alle Figuren werden richtig auf den jeweiligen Feldern platziert 
+
+Reguläre Bewegungen:
+Alle Steine sind nur Diagonal und auf dunkle Felder bewegbar 
+
+Erlaubte Züge:
+Der Spieler darf nur die jeweiligen Figuren bewegen, die zu seiner Farbe gehören
+
+Blockierte Züge:
+Der Spieler kann keine Figuren außerhalb des Spielfelds bewegen 
+
+Einfache Schläge:
+Die Bauern schlagen Steine -> geschlagener Stein wird entfernt und der schlagende Stein auf das neue Feld gezeichnet
+
+Mehrfachschläge:
+Die Bauern bzw. Damen können automatisiert erkennen, welche Mehrfachschläge möglich sind und kennzeichnen das letzte Feld
+-> Bauern werden auch bei Mehrfachschlägen zur Dame
+
+Zugzwang:
+Der Spieler muss eine Figur schlagen und darf keine Figur auf ein Feld ziehen, ohne die Figur zu schlagen (vorausgesetzt man kann eine Figur schlagen)
+
+Schlagbedingung:
+Die Voraussetzung zum Schlagen einer Figur ist nur dann erfüllt, wenn das angrenzende Feld frei ist
+
+Queening:
+Bauern können auf dem oberen bzw. unteren Rand zur Dame promovieren
+
+Korrekte Platzierung der Dame:
+Der Bauer, welcher zur Dame promoviert wurde, wird auf das richtige Feld gesetzt
+
+Bewegungen der Dame:
+Damen können diagonal in jede Richtung ziehen und ebenso schlagen -> beim Schlagen unabhängig der Schrittweite, kann die Dame nur auf das direkt angrenzende Feld schlagen
+
+Spielende:
+Falls keine Steine einer Farbe vorhanden sind, hat die andere Farbe gewonnen -> Pop-Up
+Falls eine Farbe keine freien Zugmöglichkeiten hat, hat die andere Farbe gewonnen -> Pop-Up
+
+Zugregelmäßigkeit:
+Die Züge dürfen nur in der korrekten Reihenfolge gemacht werden. D.h.: weiß, schwarz, weiß,…
+
+Zugbestätigung:
+Der Spieler muss eine Figur antippen und danach bestätigen, dass er auf ein weiteres Feld ziehen möchte
+
+Visuelles Feedback:
+Alle möglichen Züge werden Farbig hervorgehoben -> nur von der aktuellen Farbe
+D.h.: wenn schwarz am Zug ist, werden nur mögliche Züge für die schwarzen Figuren hervorgehoben. Nicht für weiße
