@@ -17,6 +17,7 @@ The game ‘Checkers’ for two players with an additional mode for free board d
 
 ![Screenshot StartScreen](img/ScreenshotStartScreen.jpg)
 ![Screenshot Game](img/ScreenshotGame.jpg)
+![Screenshot Game2](img/ScreenshotGame2.jpg)
 ![Screenshot Debug](img/ScreenshotDebug.jpg)
 
 ---

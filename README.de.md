@@ -17,6 +17,7 @@ Das Spiel ‚Checkers‘ für zwei Spieler mit einem zusätzlichen Modus zur fre
 
 ![Screenshot StartScreen](img/ScreenshotStartScreen.jpg)
 ![Screenshot Game](img/ScreenshotGame.jpg)
+![Screenshot Game2](img/ScreenshotGame2.jpg)
 ![Screenshot Debug](img/ScreenshotDebug.jpg)
 
 ---
