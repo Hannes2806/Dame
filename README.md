@@ -9,7 +9,7 @@ The game ‘Checkers’ for two players with an additional mode for free board d
 - the game ‘Checkers’ for two players
 - mode for free board design (free placement of game pieces, debug mode)
 - save game in txt format
-- clear code according to mvc
+- clean code according to mvc
 
 ---
 
