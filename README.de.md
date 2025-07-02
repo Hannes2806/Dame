@@ -49,6 +49,6 @@ Dieses Projekt steht unter der Apache License 2.0. Weitere Informationen siehe [
 
 ## Autor
 
-Hannes F. Martens
-Matthes Boettcher
-Farin Forster
+Hannes F. Martens,
+Matthes Boettcher,
+Farin Forster,
